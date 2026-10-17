@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ElevatorApp.forms
+namespace ElevatorApp
 {
-    internal class MainForm
+    public partial class MainForm : Form
     {
+        public MainForm()
+        {
+            InitializeComponent();
+        }
     }
 }
